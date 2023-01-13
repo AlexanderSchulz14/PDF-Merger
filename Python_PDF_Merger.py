@@ -24,14 +24,13 @@ for file in os.listdir(path):
         pdf_ls.append(file)
         
  
-
 # Merge       
 merger = PyPDF2.PdfMerger()
 
 for pdf in pdf_ls:
     merger.append(pdf)
     
-file_name = "Merged_Test"
+file_name = "Merged_Test" # specify filename for merged file
 merger.write(file_name + ".pdf")
 merger.close()
 
