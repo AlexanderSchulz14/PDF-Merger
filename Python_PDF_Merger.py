@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Created on Wed Jan 11 10:13:20 2023
 
-@author: alexa
+@author: Alexander Schulz
 """
 
 import PyPDF2
@@ -10,7 +9,9 @@ import sys
 import os
 
 # WD
-path = r"C:\Users\alexa\Documents\Studium\MSc (WU)\Macroeconometrics\Assignment 4" # r for raw string
+# choose directory where PDFs to be merged are
+# NOTE: ordering of files matters for merge!
+path = r"path/.../" # r for raw string
 path = path.replace("\\", "/")
 os.chdir(path)
 
