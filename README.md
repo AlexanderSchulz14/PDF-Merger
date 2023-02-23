@@ -6,6 +6,6 @@ Simple PDF Merger in Python
 3. Have fun with your PDFs!
 
 ### **Note:** 
-ordering of files in filename matters for merge; use numeric values at the beginning of the filename e.g. 
+ordering of files matters for merge; use numeric values at the beginning of the filename e.g. 
 - "1. File_1"
 - "2. File_2"
